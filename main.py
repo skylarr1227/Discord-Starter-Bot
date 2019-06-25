@@ -23,7 +23,6 @@ class DiscordBot(commands.Bot):
 
             
    async def on_ready(self):
-       print(login_string)
        print('Username: ' + str(self.user.name))
        print('Client ID: ' + str(self.user.id))
        print('Invite URL: ' + 'https://discordapp.com/oauth2/authorize?&client_id=' + str(self.user.id) + '&scope=bot&permissions=0')
