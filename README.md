@@ -1,5 +1,18 @@
-# NekuBot
+Weird Readme but ok
 
-Neku's Python Nadeko Clone
+# Neku's Starter Bot
 
-Get yer own API keys
+go into settings and config.py
+
+SLAP in your details 
+
+aaaand run
+
+to make edits to the bot use the cogs system
+https://discordpy.readthedocs.io/en/latest/api.html
+use this also
+
+shit teacher i know
+
+Nekurone#8274
+hi drop
