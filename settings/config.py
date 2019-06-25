@@ -1,0 +1,8 @@
+TOKEN = ''
+
+BOTID = ''
+BOTSECRET=''
+OWNERID = ''
+
+COMMANDPREFIX = ''
+DJROLES = ['DJ']
