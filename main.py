@@ -31,16 +31,7 @@ class DiscordBot(commands.Bot):
    
    def isOwner(self,message):
        return (message.author.id == config.OWNERID)
-   @commands.command()
-   async def reload(self):
-      for extension in command_sets:
-         try:
-            self.load_extension('modules.'+extension)
-         except Exception as e:
-            exc = '{}: {}'.format(type(e).__name__, e)
-            print('Failed to load extension {}\n{}'.format(extension, exc))
-         else:
-            print("Loaded: {}".format(extension))
+   
 client = DiscordBot()
 
 
